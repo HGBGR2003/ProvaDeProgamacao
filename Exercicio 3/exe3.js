@@ -12,8 +12,8 @@ function comissaoCincoPorcento(){
   return resultado
 }
 
-console.log("O nome " , nomeContribuente)
-console.log(codigoDaPeca)
-console.log(precoPeca)
-console.log(quantidadeVendida)
-console.log(totalVenda)
+console.log("O nome do Vendedor(a) " , nomeContribuente)
+console.log("O Código da peça é ",codigoDaPeca)
+console.log( "O preço da peça está ",precoPeca)
+console.log("A quantidade que foi vendida é ",quantidadeVendida)
+console.log("O total da venda",totalVenda)
