@@ -6,13 +6,14 @@ let quantidadeVendida = Number(prompt("Informe a quantidade vendida ?"))
 let totalVenda = quantidadeVendida * precoPeca
 
 function comissaoCincoPorcento(){
-    return  totalVenda = 0.05 * totalVenda
-
+  let resultado 
+  resultado = totalVenda * 0.05
+  console.log(resultado)
+  return resultado
 }
 
-console.log(nomeContribuente)
+console.log("O nome " , nomeContribuente)
 console.log(codigoDaPeca)
 console.log(precoPeca)
 console.log(quantidadeVendida)
 console.log(totalVenda)
-console.log(comissaoCincoPorcento)
