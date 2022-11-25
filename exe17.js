@@ -5,3 +5,4 @@ if (0<=numero && numero<=9){
 else{
     console.log("valor inválido")
 }
+54444
