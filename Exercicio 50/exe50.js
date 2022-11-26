@@ -3,9 +3,9 @@ let tentativaUsuario = Number(prompt("Informe um número, e tente acertar com a 
 
 if(tentativaUsuario != valorAleatorio){
     if (valorAleatorio > tentativaUsuario) {
-        console.log("O numero sorteado foi " + valorAleatorio + " é MAIOR")
+        console.log("O numero sorteado foi MAIOR que o valor sorteado")
     }else{
-        console.log("O numero sorteado foi " + valorAleatorio + " é MENOR")
+        console.log("O numero sorteado foi MENOR que o valor sorteado")
     }  
 
 }
