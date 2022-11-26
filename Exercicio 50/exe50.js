@@ -1,18 +1,21 @@
 let valorAleatorio = Math.floor(Math.random() * 100) + 1
-let tentativaUsuario = Number(prompt("Informe um número, e tente acertar com a máqunia ?"))
+let tentativaUsuario
+let somatorio = 0
 
-if(tentativaUsuario != valorAleatorio){
+while (valorAleatorio !== tentativaUsuario)  {
+    tentativaUsuario = Number(prompt("Informe um número entre 0 e 100, e tente acertar com a máqunia?"))
     if (valorAleatorio > tentativaUsuario) {
-        console.log("O numero sorteado foi MAIOR que o valor sorteado")
-    }else{
-        console.log("O numero sorteado foi MENOR que o valor sorteado")
-    }  
-
+        somatorio++
+        alert("O número informado é Menor que o valor sorteado")
+    }
+    if (valorAleatorio < tentativaUsuario) {
+        somatorio++
+        alert("O número informado é Maior que o valor sorteado")
+    } 
 }
 
-for(let i = 0; i == valorAleatorio; i++){
-    console.log("O número de tentavias foi",tentativaUsuario);
-}
+alert("PARABÉNS Você acertou!!!, O número de tentavias foi: " + somatorio)
+alert("O número sorteado foi: " + valorAleatorio)
 
 
 
