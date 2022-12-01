@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+let x = 1
+while(x<2){
+    let usuario = prompt("digite um numero inteiro")
+    let numeroU = Number(usuario)
+    if(numeroU>0){
+        console.log("esse número é positivo")
+    }
+    else if(numeroU<0){
+        console.log("esse numero é negativo")
+    }
+    let retorno = confirm("Deseja continuar?")
+    if(retorno != true){
+        break
+    }
+}
+    </script>
+<body>
+    
+</body>
+</html>
