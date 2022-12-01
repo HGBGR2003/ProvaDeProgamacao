@@ -1,2 +1,0 @@
-Este projeto tem como função a realização de exercicios na disciplina de Progamação Básica; Estes exercicios são para
-a prova de Progamação básica valendo 6.0 na nota final, com apresentação do mesmo no Final.
