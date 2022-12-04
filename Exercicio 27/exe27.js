@@ -11,12 +11,12 @@ function fatorial(valor) {
       return acumula;
     } 
 }
-let qtdN = Number(prompt("qual quantidade de números que deverá processar?"))
+let qtdN = Number(prompt("deseja calcular o fatorial de quantos numeros?"))
 const numeros = []
 let x = 0
 do {
   x += 1;
- var usuario = Number(prompt("digite os numeros a serem processados"))
+ var usuario = Number(prompt("digite os numeros"))
     numeros.push(usuario)
 } while (x < qtdN);
 let quantidaDadaUsuario = numeros.length
