@@ -15,6 +15,6 @@ switch(codigo){
       break
     
     default:
-          console.log("Códig Inválido")
+          console.log("Código Inválido")
 
   }
