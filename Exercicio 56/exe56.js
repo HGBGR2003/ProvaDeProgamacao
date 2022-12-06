@@ -6,8 +6,8 @@ for(let i = 0; i < 6; i++){
     console.log(vetorPrincipal)
 }
 
-if (valorUsuario %2 == 0) {
-    let cont = 0
+if (vetorPrincipal[i] %2 == 0) {
+    let cont = 1
     cont++
     console.log("A quantidade de números pares é",cont)
 }

@@ -1,5 +1,3 @@
-/*let numero_usuario = Number(prompt("Digite um número"))
-let sair = prompt("Quer sair? (S/N)")*/
 let sair 
 do{
     let numero_usuario = Number(prompt("Digite um número"))
