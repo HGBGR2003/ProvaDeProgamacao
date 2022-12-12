@@ -1,17 +1,17 @@
-let numeros = [2,4,78,6,35,12,0]
-
+let numeros = [2,4,78,-2,35,12,0]
+if([i])
 function Ordenar(a,b) {
     return a - b
 }
 numeros.sort(Ordenar)
 
-const maxValue = numeros.reduce(function(prev,current){
-    return prev > current ? prev:current
+const ValorMax = numeros.reduce(function(anterior,posterior){
+    return anterior > posterior ? anterior:posterior
 })
 
-const minValue = numeros.reduce(function(prev,current){
-    return prev < current ? prev:current
+const ValorMin = numeros.reduce(function(anterior,posterior){
+    return anterior < posterior ? anterior:posterior
 })
 
-console.log(maxValue)
-console.log(minValue)
+console.log(ValorMax)
+console.log(ValorMin)
