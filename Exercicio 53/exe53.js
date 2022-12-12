@@ -1,28 +1,25 @@
-let numeroVoltas = Number(prompt("Informe o numero de voltas ?"))
+let numeroVoltas = parseFloat(prompt("Informe o numero de voltas ?"))
 let tempoVoltas = []
 let soma = 0
-let melhorTime = 3.0
+let melhorTempo = 200
 let melhorVolta
-let i
 
-for(i = 0 ; i < numeroVoltas; i++){
-    let tempo = Number(prompt("Informe o tempo de cada volta ?")) 
+for(let i = 0 ; i < numeroVoltas; i++){
+    let tempo = parseFloat(prompt("Informe o tempo de cada volta ?")) 
     tempoVoltas.push(tempo)
 
-    console.log(tempoVoltas[i])
+    soma+= tempo
 
-    if(tempoVoltas < melhorTime) {
-        melhorTime = tempoVoltas [i]
+    if(tempo < melhorTempo) {
+        melhorTempo = tempo
         melhorVolta = i
     }
 }
 
-for(let i in tempoVoltas){
-    soma += tempoVoltas[i]
-}
+
 
 let media = soma / numeroVoltas
 
-console.log("O melhor tempo foi" , melhorTime)
-console.log("O melhor tempo foi na volta", melhorVolta)
-console.log("A média das notas foi", media)
+console.log("O melhor tempo foi" , melhorTempo)
+console.log("O melhor tempo foi na volta", melhorVolta+1)
+console.log("A média das notas foi de", media.toFixed(2))
