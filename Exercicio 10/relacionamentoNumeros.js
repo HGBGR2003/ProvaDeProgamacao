@@ -9,7 +9,7 @@ if(a>b){
 }if(b>a){
     console.log(b,"é maior que", a)
 }else{
-    console.log(b,"é menor que", a)
+    console.log(b," é menor que", a)
 }
 if(a>=b){
     console.log(a,">=", b)
