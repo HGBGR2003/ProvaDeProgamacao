@@ -14,4 +14,4 @@ const ValorMin = numeros.reduce(function(anterior,posterior){
 })
 
 console.log(ValorMax)
-console.log(ValorMin)
+console.log(ValorMin
