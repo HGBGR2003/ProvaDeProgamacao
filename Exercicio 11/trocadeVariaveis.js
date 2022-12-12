@@ -5,5 +5,5 @@
  a =  b;
 
  b = variavelA;
- console.log("Valor de a:",a)
+ console.log("Valor de a:", a)
  console.log("valor de b:", b)
