@@ -20,24 +20,21 @@ do{
         
         case 3:
             let alturaHomem = parseFloat(prompt("Informe a altura caso tenha escolhido Homem"))
-            let pesoDOHomem
-            pesoDOHomem = (72.7 * alturaHomem) - 58;
-            if (pesoDOHomem <= 18.5 && pesoDOHomem >= 24.9) {
-                console.log("Seu peso ideal é:",pesoDOHomem, "Kg")     
-            }else if(pesoDOHomem > 24.9){
-                console.log("Está acima do peso")
+            let pesoDOHomem = parseFloat(prompt("Qual seu peso?(M)"))
+            let pesoIdeal = (72.7 * alturaHomem) - 58;
+            if (pesoDOHomem > pesoIdeal){
+                console.log("vocé estpa acima do peso")
             }
             break
         
         case 4:
            let alturaMulher = parseFloat(prompt("Informe a altura caso tenha escolhido Mulher"))
-           let pesoMulher
-           pesoMulher = (62.1 * alturaMulher) - 44.7
-           if (pesoMulher <= 18.5 && pesoMulher >= 24.9) {
-                console.log("Seu peso ideal é:",pesoMulher, "Kg")  
-           }else if(pesoMulher > 24.9){
-                console.log("Está acima do peso")
+           let pesodamulher = parseFloat(prompt("Qual seu peso?(F)"))
+           pesoIdealF= (62.1 * alturaMulher) - 44.7
+           if (pesodamulher > pesoIdealF) {
+            console.log("você está acima do peso")
            }
+            
            break
     }
 
