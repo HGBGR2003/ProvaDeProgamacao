@@ -9,13 +9,13 @@ do{
         case 1:
             let graus = Number(prompt("Informe um valor em graus Celisus "))
             let converteCelsius = (graus * 1.8) + 32 
-            console.log("O valor em graus Celsius",converteCelsius)
+            console.log("O valor em graus Celsius é",converteCelsius)
             break
     
         case 2:
             let graus2 = Number(prompt("Informe uma temperatura em Fahrenheit"))
             let converteFahrenheit = (graus2 - 32) / 1.8
-            console.log("O valor em graus Fahrenheit",converteFahrenheit)
+            console.log("O valor em graus Fahrenheit é",converteFahrenheit)
             break
         
         case 3:
