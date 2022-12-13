@@ -19,7 +19,7 @@ do{
             break
         
         case 3:
-            let alturaHomem = parseFloat(prompt("Informe a altura caso tenha escolhido Homem ?"))
+            let alturaHomem = parseFloat(prompt("Informe a altura caso tenha escolhido Homem"))
             let pesoDOHomem
             pesoDOHomem = (72.7 * alturaHomem) - 58;
             if (pesoDOHomem <= 18.5 && pesoDOHomem >= 24.9) {
@@ -30,7 +30,7 @@ do{
             break
         
         case 4:
-           let alturaMulher = parseFloat(prompt("Informe a altura caso tenha escolhido Mulher ?"))
+           let alturaMulher = parseFloat(prompt("Informe a altura caso tenha escolhido Mulher"))
            let pesoMulher
            pesoMulher = (62.1 * alturaMulher) - 44.7
            if (pesoMulher <= 18.5 && pesoMulher >= 24.9) {
