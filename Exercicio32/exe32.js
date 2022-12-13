@@ -22,5 +22,4 @@ for(let x = 0; x < numeros.length; x++){
 for(let y = 0; y < numerosImpares.length; y++){
     soma = soma + ((numerosImpares[y])**2)
 }
-console.log(soma) // o programa soma os numeros a partir do numero dado pelo usuario
-                 //ou seja nao conta o numero dado pelo usuario.
+console.log(soma) 
