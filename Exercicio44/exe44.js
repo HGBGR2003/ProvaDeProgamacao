@@ -2,8 +2,8 @@ let digiteNumero
 let encerrandoOuContinuando
 
 do{
-    digiteNumero = Number(prompt(" Digite : 1 - Conversão de Graus Celsius Farenheit, 2 - Conversão Graus Celsius Fahreint" +
-    " 3 - Peso ideal do Homem e 4 - Peso ideal da mulher"))
+    digiteNumero = Number(prompt(" Digite : 1 - Conversão de Graus Celsius Farenheit,    2 - Conversão Fahreint para celcius" +
+    " 3 - Peso ideal do Homem e     4 - Peso ideal da mulher"))
 
     switch (digiteNumero) {
         case 1:
@@ -14,7 +14,7 @@ do{
     
         case 2:
             let graus2 = Number(prompt("Informe uma temperatura em Fahrenheit"))
-            let converteFahrenheit = (graus2 * 1.8) - 32
+            let converteFahrenheit = (graus2 - 32) / 1.8
             console.log("O valor em graus Fahrenheit",converteFahrenheit)
             break
         
