@@ -7,4 +7,4 @@ for(let i=1; i<casasDoTab; i++){
     graosDeTrigo = graosDeTrigo + graosCasas
 }
 
-console.log("Quantidade de grãos que o monge recebeu é", graosDeTrigo)
+console.log(" Quantidade de grãos que o monge recebeu é", graosDeTrigo)
