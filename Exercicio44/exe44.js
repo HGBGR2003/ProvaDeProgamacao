@@ -2,8 +2,7 @@ let digiteNumero
 let encerrandoOuContinuando
 
 do{
-    digiteNumero = Number(prompt(" Digite : 1 - Conversão de Graus Celsius Farenheit,    2 - Conversão Fahreint para celcius" +
-    " 3 - Peso ideal do Homem e 4 - Peso ideal da mulher"))
+    digiteNumero = Number(prompt(" Digite : 1 - Conversão de Graus Celsius Farenheit, 2 - Conversão Fahreint para celcius, 3 - Peso ideal do Homem e 4 - Peso ideal da mulher"))
 
     switch (digiteNumero) {
         case 1:
