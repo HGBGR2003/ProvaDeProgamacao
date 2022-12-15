@@ -1,4 +1,4 @@
-let  graosCasas=1
+let graosCasas=1
 let casasDoTab=64
 let graosDeTrigo=1
 
