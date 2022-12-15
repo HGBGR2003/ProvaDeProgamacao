@@ -1,4 +1,4 @@
-let valorAleatorio = Math.floor(Math.random() * 100) + 1
+let valorAleatorio = Math.floor(Math.random() * 100) + 1 //Lembrar
 let tentativaUsuario
 let somatorio = 0
 
