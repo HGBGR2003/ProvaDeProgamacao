@@ -12,3 +12,4 @@ if (valorAlfabeticoDeUmAoOutroCaso2 < valorAlfabeticoDeUmAoOutro) {
 let operacaoDiferenca = valorAlfabeticoDeUmAoOutroCaso2 - valorAlfabeticoDeUmAoOutro - 1
 
 console.log("O número de caracteres entre eles é",operacaoDiferenca)
+
