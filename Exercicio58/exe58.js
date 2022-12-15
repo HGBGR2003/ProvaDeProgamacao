@@ -20,7 +20,6 @@ for(let i in vetorPrincipal){
 
 let media = soma / quantidadeNumeros
 
-
 console.log("A soma dos numeros do vetor Principal é", soma)
 console.log("A média dos numeros do vetor Principal é", media.toFixed(1))
 console.log("O maior dos numeros do vetor Principal é", maiorNumero)
