@@ -9,7 +9,7 @@ let mediaEscolar = (n1+n2+n3+n4)/4
 
 if(mediaEscolar>=7){
     let media = mediaEscolar
-    console.log("ALUNO APROVADO COM MÉDIA :" , media )
+    console.log("ALUNO APROVADO COM MÉDIA :" , media)
 }else if(mediaEscolar<7){
    notaRecuperacao = Number(prompt("DIGITE A NOTA DA RECUPERAÇÃO"))
 }
